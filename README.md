@@ -82,3 +82,7 @@ Instead of taking the manual approach, we decided to create a script to do the f
     "ecr:type": "thesaurus"
 }
 ```
+
+**TEST:**
+
+python app.py data-in/AHR.thesaurus.xml
