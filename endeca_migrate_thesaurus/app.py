@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import xml.etree.ElementTree
 import json
 import datetime

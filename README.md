@@ -55,3 +55,7 @@ Final output:
     ],	
     "ecr:type": "thesaurus"
 }
+
+TEST:
+
+python app.py data-in/AHR.thesaurus.xml
