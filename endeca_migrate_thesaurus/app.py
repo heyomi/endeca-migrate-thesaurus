@@ -14,8 +14,7 @@ def convert_xml2json(inputf, outputf):
     oneway_thesaurus_entry_tag = "THESAURUS_ENTRY_ONEWAY"
     oneway_thesaurus_search_terms_tag = "THESAURUS_FORM_FROM"
     oneway_thesaurus_synonyms_tag = "THESAURUS_FORM_TO"
-    
-    today = datetime.date.today()
+
     data = {}
     
     print "Reading file: " + input_file 
@@ -61,7 +60,7 @@ def convert_xml2json(inputf, outputf):
             data = {
                 "ecr:type" : "thesaurus",
                 "thesaurus-entries" : thesaurus_entries, 
-                 "ecr:createDate" : today.strftime("%Y-%m-%dT%H:%M:%S.%f")
+                 "ecr:createDate" : str(datetime.datetime.now().strftime("%Y-%m-%dT%H:%M:%S.%f"))
             }
             
             with open(output_file, 'w') as outfile:
