@@ -88,6 +88,7 @@ Instead of taking the manual approach, we decided to create a script to do the f
 python app.py data-in/AHR.thesaurus.xml
 
 Notes:
+
 * AppName thesaurus xml: 
 ``` 
 /endeca/apps/AppName/config/pipeline/AppName.thesaurus.xml
