@@ -86,3 +86,18 @@ Instead of taking the manual approach, we decided to create a script to do the f
 **TEST:**
 
 python app.py data-in/AHR.thesaurus.xml
+
+Notes:
+* AppName thesaurus xml: 
+``` 
+/endeca/apps/AppName/config/pipeline/AppName.thesaurus.xml
+```
+* To export thesaurus entires: 
+
+``` 
+runcommand[.sh|.bat] IFCR exportContent thesaurus /endeca/apps/AppName/config/import/thesaurus true
+```
+* To import thesaurus entries: 
+```
+runcommand[.sh|.bat] IFCR importContent thesaurus /endeca/apps/AppName/config/import/thesaurus.zip
+```
