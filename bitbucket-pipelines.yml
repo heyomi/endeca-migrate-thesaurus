@@ -12,4 +12,4 @@ pipelines:
           - pip install -U tox
           - pip --version
           - tox --version
-          - cd endeca_migrate_thesaurus && python app.py data-in/AHR.thesaurus.xml
+          - cd endeca_migrate_thesaurus && python app.py data-in/AHR.thesaurus.xml -o -p
