@@ -85,7 +85,7 @@ Instead of taking the manual approach, we decided to create a script to do the f
 
 **TEST:**
 
-python app.py data-in/AHR.thesaurus.xml
+python app.py data-in/AHR.thesaurus.xml -o -p
 
 Notes:
 
