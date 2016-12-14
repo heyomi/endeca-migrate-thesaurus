@@ -102,3 +102,8 @@ runcommand[.sh|.bat] IFCR exportContent thesaurus /endeca/apps/AppName/config/im
 ```
 runcommand[.sh|.bat] IFCR importContent thesaurus /endeca/apps/AppName/config/import/thesaurus.zip
 ```
+
+* Old version
+```
+/PlatformServices/6.1.0/bin/emgr_update --host localhost:8006 --action get_ws_settings --prefix appPrefix --dir ../ --app_name AppName
+```
