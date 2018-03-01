@@ -1,4 +1,4 @@
-Brandon Plamondon's task
+The task:
 
 I need the thesaurus, stop words, phrases and redirects from the previous system transferred over to the new one.
 Instead of taking the manual approach, we decided to create a script to do the following:
