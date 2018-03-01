@@ -5,7 +5,7 @@ import datetime
 import sys, getopt
 
 def convert_xml2json(inputf, outputf, options):
-    input_file = inputf #"data-in/AHR.thesaurus.xml"
+    input_file = inputf #"data-in/SAMPLE.thesaurus.xml"
     output_file = outputf if outputf is not None else 'thesaurus.json' #"data-out/thesaurus.json"
     
     # Options
